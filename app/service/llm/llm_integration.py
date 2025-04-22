@@ -57,7 +57,7 @@ class LLM_Integration():
                                     1. Process the image of scanned form carefully.
                                     2. Fetch all the information from the form.
                                     3. Return the extracted information in JSON format
-                                    5. Extract the details exactly as it appears in the document, preserving the case.
+                                    5. Extract the details exactly as it appears in the document, preserving the text case.
                                 """},
                                 {
                                     "type": "input_image",
