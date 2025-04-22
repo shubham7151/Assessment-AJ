@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "DataPrivacyStatement",
+    "type": "object",
+    "properties": {
+      "identity_verification_consent": {
+        "type": "boolean",
+        "description": "consent to check id & v"
+      },
+      "fraud_prevention_checks_consent": {
+        "type": "boolean",
+        "description": "consent for fraud prevention checks"
+      },   
+      "communication_preference_consent": {
+        "type": "boolean",
+        "description": "Indicates if they like to receive comms on investment updates and news."
+      },
+      "trustee_signatures": [
+        {
+          "name": {
+            "type": "string"
+          },
+          "date": {
+            "type": "Date"
+          },
+          "signature": {
+            "type": "string"
+         }
+        }
+      ]
+    }
+  }

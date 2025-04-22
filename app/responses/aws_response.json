@@ -1,0 +1,46 @@
+[
+    {
+      "title": "Mr",
+      "surname": "Doe",
+      "forenames": "John",
+      "date_of_birth": "1980-01-01",
+      "national_insurance_number": "NI234567A",
+      "permanent_residential_address": "123 Main Road",
+      "postcode": "L12 3AB",
+      "country_of_residence": "United Kingdom",
+      "country_of_nationality": "United Kingdom",
+      "deceased": false
+    },
+    {
+      "title": "Ms",
+      "surname": "Doe",
+      "forenames": "Jane",
+      "date_of_birth": "1990-01-01",
+      "national_insurance_number": "NI456789B",
+      "permanent_residential_address": "456 Broad Street",
+      "postcode": "M12 3BC",
+      "country": "United Kingdom",
+      "telephone_number": "01234567891",
+      "email_address": "",
+      "existing_aj_bell_account": null,
+      "existing_account_number": null,
+      "born_in_uk": null,
+      "solely_uk_citizen": null,
+      "not_born_in_uk": {
+        "country_of_birth": "",
+        "nationality": "",
+        "id_number": "",
+        "type_of_number": "",
+        "passport_number": "",
+        "primary_residence": "",
+        "secondary_residence": "",
+        "primary_citizenship": "",
+        "secondary_citizenship": ""
+      }
+    },
+    {},
+    {},
+    {},
+    {},
+    {}
+  ]

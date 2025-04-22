@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TrusteeDetails",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "enum": ["Dr", "Mr", "Mrs", "Miss", "Ms", "Other"]
+    },
+    "surname": {
+      "type": "string"
+    },
+    "forenames": {
+      "type": "string"
+    },
+    "date_of_birth": {
+      "type": "string",
+      "format": "date"
+    },
+    "national_insurance_number": {
+      "type": "string"
+    },
+    "permanent_residential_address": {
+      "type": "string"
+    },
+    "postcode": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "telephone_number": {
+      "type": "string"
+    },
+    "email_address": {
+      "type": "string",
+      "format": "email"
+    },
+    "existing_aj_bell_account": {
+      "type": "boolean",
+      "description": "Indicates if they have an existing AJ Bell Account."
+    },
+    "existing_account_number": {
+      "type": ["string", "null"],
+      "description": "The AJ Bell account number if it exists."
+    },
+    "born_in_uk": {
+      "type": "boolean"
+    },
+    "solely_uk_citizen": {
+      "type": "boolean"
+    },
+    "not_born_in_uk": {
+      "country_of_birth": {
+        "type": "string"
+      },
+      "nationality": {
+        "type": "string"
+      },
+      "id_number": {
+        "type": "string"
+      },
+      "type_of_number": {
+        "type": "string"
+      },
+      "passport_number": {
+        "type": "string"
+      },
+      "primary_residence": {
+        "type": "string",
+	"description": "primary country of residence for tax purposes"
+      },
+      "secondary_residence": {
+        "type": "string",
+	"description": "secondary country of residence for tax purposes"
+      },
+      "primary_citizenship": {
+        "type": "string"
+      },      
+      "secondary_citizenship": {
+        "type": "string"
+      }  
+    }
+  }
+}

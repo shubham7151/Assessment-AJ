@@ -1,0 +1,87 @@
+{
+  "TrustRegistrationDetails": {
+    "HMRC_unique_reference_number": "",
+    "proof_of_registration_attached": false
+  },
+  "TrusteeDetails": {
+    "title": "Ms",
+    "surname": "Jane",
+    "forenames": "Doe",
+    "date_of_birth": "1990-01-01",
+    "national_insurance_number": "NI456789B",
+    "permanent_residential_address": "456 Broad Street",
+    "postcode": "M12 3BC",
+    "country": "United Kingdom",
+    "telephone_number": "01234567891",
+    "email_address": "",
+    "existing_aj_bell_account": false,
+    "existing_account_number": "",
+    "born_in_uk": false,
+    "solely_uk_citizen": false,
+    "not_born_in_uk": {
+      "country_of_birth": "",
+      "nationality": "",
+      "id_number": "",
+      "type_of_number": "",
+      "passport_number": "",
+      "primary_residence": "",
+      "secondary_residence": "",
+      "primary_citizenship": "",
+      "secondary_citizenship": ""
+    }
+  },
+  "BeneficiaryDetails": {
+    "title": "",
+    "surname": "",
+    "forenames": "",
+    "date_of_birth": "",
+    "national_insurance_number": "",
+    "permanent_residential_address": "",
+    "postcode": "",
+    "country": "",
+    "telephone_number": "",
+    "email_address": "",
+    "born_in_uk": false,
+    "not_born_in_uk": {
+      "country_of_birth": "",
+      "nationality": "",
+      "id_number": "",
+      "type_of_number": "",
+      "passport_number": "",
+      "primary_residence": "",
+      "secondary_residence": "",
+      "country_of_citizenship": "",
+      "second_country_of_citizenship": ""
+    }
+  },
+  "DataPrivacyStatement": {
+    "identity_verification_consent": false,
+    "fraud_prevention_checks_consent": false,
+    "communication_preference_consent": false,
+    "trustee_signatures": []
+  },
+  "DonorDetails": {
+    "title": "Mr",
+    "surname": "Doe",
+    "forenames": "John",
+    "date_of_birth": "1980-01-01",
+    "national_insurance_number": "NI234567A",
+    "permanent_residential_address": "123 Main Road",
+    "postcode": "L12 3AB",
+    "country_of_residence": "United Kingdom",
+    "country_of_nationality": "United Kingdom",
+    "deceased": false
+  },
+  "NominatedBankAccount": {
+    "account_holder_name": "",
+    "account_number": "",
+    "sort_code": ""
+  },
+  "SecurityInformation": {
+    "username": "",
+    "security_questions": {
+      "mother_maiden_name": "",
+      "first_school_name": ""
+    }
+  }
+}

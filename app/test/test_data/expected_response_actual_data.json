@@ -1,0 +1,98 @@
+{
+    "TrustRegistrationDetails": {
+      "HMRC_unique_reference_number": "URN-ABCD-123456",
+      "proof_of_registration_attached": false
+    },
+    "TrusteeDetails": {
+      "title": "Miss",
+      "surname": "Jane",
+      "forenames": "Doe",
+      "date_of_birth": "1990-01-01",
+      "national_insurance_number": "N1456789B",
+      "permanent_residential_address": "456 Main street",
+      "postcode": "M12 3BC",
+      "country": "UK",
+      "telephone_number": "01234 567891",
+      "email_address": "Jane.doe@example.com",
+      "existing_aj_bell_account": true,
+      "existing_account_number": "AJB123456",
+      "born_in_uk": true,
+      "solely_uk_citizen": true,
+      "not_born_in_uk": {
+        "country_of_birth": "",
+        "nationality": "",
+        "id_number": "",
+        "type_of_number": "",
+        "passport_number": "",
+        "primary_residence": "",
+        "secondary_residence": "",
+        "primary_citizenship": "",
+        "secondary_citizenship": ""
+      }
+    },
+    "BeneficiaryDetails": {
+      "title": "Ms",
+      "surname": "Janice",
+      "forenames": "Doe",
+      "date_of_birth": "2015-01-01",
+      "national_insurance_number": null,
+      "permanent_residential_address": "678 Bridge street",
+      "postcode": "M12 4CD",
+      "country": "UK",
+      "telephone_number": "01234789234",
+      "email_address": "J.doe@example.com",
+      "born_in_uk": true,
+      "not_born_in_uk": {
+        "country_of_birth": "",
+        "nationality": "",
+        "id_number": "",
+        "type_of_number": "",
+        "passport_number": "",
+        "primary_residence": "",
+        "secondary_residence": "",
+        "country_of_citizenship": "",
+        "second_country_of_citizenship": ""
+      }
+    },
+    "DataPrivacyStatement": {
+      "identity_verification_consent": true,
+      "fraud_prevention_checks_consent": true,
+      "communication_preference_consent": false,
+      "trustee_signatures": [
+        {
+          "name": "Jane Doe",
+          "date": "2025-02-13",
+          "signature": ""
+        },
+        {
+          "name": "",
+          "date": "",
+          "signature": ""
+        }
+      ]
+    },
+    "DonorDetails": {
+      "title": "Mr",
+      "surname": "Doe",
+      "forenames": "John",
+      "date_of_birth": "1980-01-01",
+      "national_insurance_number": "N1324567A",
+      "permanent_residential_address": "123 Main Rd.",
+      "postcode": "L12 3AB",
+      "country_of_residence": "UK",
+      "country_of_nationality": "UK",
+      "deceased": false
+    },
+    "NominatedBankAccount": {
+      "account_holder_name": "Jane Doe",
+      "account_number": "02088765",
+      "sort_code": "01-02-03"
+    },
+    "SecurityInformation": {
+      "username": "Janedoetrustee",
+      "security_questions": {
+        "mother_maiden_name": "Lucy Doe",
+        "first_school_name": "St. Paul Primary School, Liverpool"
+      }
+    }
+  }

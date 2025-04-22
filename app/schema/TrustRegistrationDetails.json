@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "TrustRegistrationDetails",
+    "type": "object",
+    "properties": {
+      "HMRC_unique_reference_number": {
+        "type": "string",
+        "description": "The unique reference number for the trust registered with HMRC."
+      },
+      "proof_of_registration_attached": {
+        "type": "boolean",
+        "description": "Specifies whether proof of registration is attached."
+      }
+    }
+  }
