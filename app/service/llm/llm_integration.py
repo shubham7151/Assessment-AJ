@@ -145,8 +145,7 @@ class LLM_Integration():
                             2. Return a python dictionary response taking account into json schema.
                             3. Read the text data carefully.
                             4. Fill the return response with appropriate information from the text read in step 3.
-                            
-
+                            5. Extract the details exactly as it appears in the json_data, preserving the case.
                                 Json Schema :
                                 {json_schema}
 

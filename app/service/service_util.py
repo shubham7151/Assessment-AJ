@@ -38,9 +38,10 @@ def extract_text_from_pdf(filename):
         dict : dictionary of key-value pair
     """
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    fetch_dir = os.path.abspath(os.path.join(base_dir,f"../../datastore/{filename}"))
+    fetch_dir = os.path.abspath(os.path.join(base_dir,f"../datastore/{filename}"))
+    print(fetch_dir)
     reader = PdfReader(fetch_dir)
-    fields_list = reader.getFields()
+    fields_list = reader.get_fields()
     if fields_list :
         return fields_list
     return None
